@@ -3,7 +3,7 @@ CREATE TABLE StudentEnrollments (
     student_name VARCHAR(100),
     course_id VARCHAR(10),
     enrollment_date DATE,
-    UNIQUE (student_name, course_id)   -- prevents duplicate enrollments
+    UNIQUE (student_name, course_id)  
 );
 
 INSERT INTO StudentEnrollments (student_name, course_id, enrollment_date)
